@@ -1,0 +1,16 @@
+
+
+.buttons button{
+    margin: 85px 280px;
+    height: 30px;
+    width: 85px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: rgb(207, 96, 88);
+    border: solid 5px red;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    transition: .5s;
+}
