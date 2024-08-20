@@ -7,9 +7,10 @@
     <title>3.Hafta Ödevi</title>
 </head>
 <body>
+    <div class="container">
     <form action="result.html" method="get">
-    <h2 class="container_1">User Information Form</h2>
-    <div class="container_2">
+    <h2>User Information Form</h2>
+    <div>
         <label for="fname">Full Name:</label>
         <br>
         <input type="text" id="fname" name="full_name">
@@ -18,8 +19,7 @@
         <br>
         <input type="email" id="eposta" name="email_address">
     </div>
-    <br>
-    <div class="container_3">
+    <div>
         <label>Gender:</label>
         <br>
         <input type="radio" name="gender" id="gender1" value="Male">
@@ -31,7 +31,6 @@
         <input type="radio" name="gender" id="gender3" value="Other">
         <label for="gender3">Other</label>
     </div>
-    <br>
     <div>
         <label>Interests:</label>
         <br>
@@ -47,7 +46,6 @@
         <input type="checkbox" name="hobi" id="chose4">
         <label for="chose4">Home Decor</label>
     </div>
-    <br>
     <div>
         <label for="f_countries">Country:</label>
         <br>
@@ -59,7 +57,6 @@
         <option value="Greece">Greece</option>
     </select>
     </div>
-    <br>
     <div>
         <label for="DofB">Date of Birth:</label>
         <br>
@@ -71,23 +68,21 @@
         <br>
         <textarea name="add_comments" id="add_comm" style="resize: none;"></textarea>
     </div>
-    <br>
     <div>
         <label for="sifre">Create a Password:</label>
         <br>
         <input type="password" id="sifre" name="your_password" required>
     </div>
-    <br>
     <div>
         <label for="dosya">Profile Picture</label>
         <br>
-        <input type="file" name="secilen_dosya" id="dosya">
+        <fieldset><input type="file" name="secilen_dosya" id="dosya"></fieldset>
     </div>
-    <br>
     <div class="buttons">
-        <button>Submit</button>
-        <button>Reset</button>
+        <input type="submit" value="Submit" id="submit">
+        <input type="reset" value="Reset" id="reset">
     </div>
 </form>
+</div>
 </body>
 </html>
